@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+header{
+    background-color: blue;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 32;
+}
+header ul{
+    margin: 0;
+}
+.headerContainer{
+display: flex;
+padding: 30px 0px;
+justify-content: space-between;
+}
+.userAction{
+list-style-type: none;
+}
+.brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+.routerDiv{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    font-size: 20px;
+    color:white;
+    margin-right: 20px;
+}
+
+.signinContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signinContainer Form{
+    width: 500px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.signinContainer h1{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+
+
+.signinContainer Form input{
+    background: ghostwhite;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+
+.signinContainer .btn-block{
+    background: cornflowerblue;
+    color: white;
+    width: 100%;
+    
+}
+.signinContainer .btn-block:hover{
+    background:ghostwhite;
+    color: blue;
+    border: 1px solid ghostwhite;
+}
+
+.signinContainer .formChange{
+cursor: pointer;
+color: blue;
+font-weight:100 ;
+}
+.input-alert{
+    color: red;
+    margin-bottom: 15px;
+}
+
+.userAuthAction{
+    display: flex;
+}
+
+.sidebar{
+    top: 100px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.sidebar .nav-link{
+display: flex;
+color: black;
+font-weight: 500;
+}
+
+.nav-link.router-link-exact-active{
+color: blue;
+}
+.dashboardTop{
+    margin-top: 150px;
+}
+
+.ourEditor .ProseMirror{
+    border:1px solid #dee2e6;
+    min-height: 150px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.ourEditor .btnContainer{
+    padding: 10px 0px;
+    border-top: 1px solid #dee2e6;
+    margin-top: 20px;
+}
+.ourEditor .btnContainer span{
+background-color: blue;
+padding: 5px;
+margin-right: 5px;
+color:white;
+cursor: pointer;
+}
+tbody,td,tfoot,th,thead,tr{
+    border-color: white!important;
+  
+}
+.carouselTop,.courseTop{
+    padding-top:130px;
+    
+}
+.sliderMessage{
+    position: relative;
+    height: 750px;
+    background-size: cover !important;
+    width: 100%;
+    background-position: bottom right !important;
+}
+.sliderContent{
+    position: absolute;
+    background-color: black;
+    bottom: 20px;
+    width: 50%;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.courseDiv{
+    padding-bottom: 100px;
+}
+.courseCategory{
+background-color: blue;
+display: inline-block;
+padding: 5px 10px;
+color: white;
+font-size: 25px;
+font-weight: 200;
+border-radius: 0px 20px 0px 0px;
+
+}
+.courseDiv .courseImg{
+height: 600px;
+width: 100%;
+background-size: cover;
+background-position: bottom right;
+}
+.courseContent{
+margin-top: 50px;
+}
+.courseRating{
+background-color: blue;
+display: inline-block;
+color: white;
+padding: 10px;
+font-size: 25px;
+font-weight: 200;
+border-radius: 20px;
+}
+.courseTitle{
+    font-size: 60px;
+}
